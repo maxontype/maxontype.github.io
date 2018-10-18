@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+.Klopstock_Titel {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 25px;
+	text-align: center;
+	line-height: 26px;
+	color: #545150;
+	margin-left: -50px;
+}
+.Klopstock_Titel_gesperrt {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 25px;
+	text-align: center;
+	line-height: 26px;
+	color: #545150;
+	letter-spacing: 0.2em;
+	margin-left: -50px;
+}
+.Klopstock_Titel_ZZ {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 25px;
+	text-align: right;
+	line-height: 26px;
+	color: #999;
+}
+
+.Klopstock_Überschrift_1 {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 135%;
+	text-align: left;
+	line-height: 26px;
+	color: #545150;
+	margin-left: 25px;
+	font-style: normal;
+	margin-bottom: 13px;
+	margin-top: 26px;
+}
+
+.Klopstock_Stücktitel {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 20px;
+	text-align: center;
+	line-height: 26px;
+	color: #545150;
+	margin-left: -50px;
+}
+.Klopstock_Stücktitel_ZZ {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 20px;
+	text-align: right;
+	line-height: 26px;
+	color: #999;
+}
+
+.Klopstock_Datum {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 16px;
+	text-align: center;
+	line-height: 26px;
+	color: #545150;
+	margin-left: -50px;
+}
+.Klopstock_Datum_ZZ {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 16px;
+	text-align: right;
+	line-height: 26px;
+	color: #999;
+}
+
+.Klopstock_Strophe {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	margin-left: 75px;
+	color: #545150;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+.Klopstock_Strophe_ZZ {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	text-align: right;
+	color: #999;
+	line-height: 26px;
+	margin-bottom: 0px;
+}
+.Klopstock_Strophe_Einzug {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	margin-left: 75px;
+	color: #545150;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	text-indent: 25px;
+}
+
+.Klopstock_HT {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	margin-left: 25px;
+	color: #545150;
+	margin-right: 25px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.Klopstock_HT_Einzug {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	margin-left: 25px;
+	color: #545150;
+	margin-right: 25px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-indent: 26px;
+}
+.Klopstock_HT_Langzitat {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	color: #545150;
+	margin-left: 50px;
+	margin-top: 6px;
+	font-style: italic;
+	margin-right: 50px;
+	margin-bottom: 8px;
+}
+
+.Klopstock_Vorrede {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	margin-left: 25px;
+	color: #545150;
+	text-align: left;
+}
+.Klopstock_Vorrede_ZZ {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #999;
+	text-align: right;
+}
+
+.Klopstock_FN {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	color: #A29172;
+	font-weight: normal;
+	margin-right: 10px;
+	margin-left: 15px;
+	text-indent: -10px;
+	margin-bottom: 0px;
+}
+.Klopstock_FN_Ziffer {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 9px;
+	color: #A29172;
+	vertical-align: top;
+	line-height: 110%;
+	font-weight: normal;
+}
+
+.Klopstock_Initiale_1_Zeilen_Einzug {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 26px;
+	float: left;
+	margin-left: 25px;
+	line-height: 26px;
+	margin-top: -4px;
+}
+.Klopstock_Initiale_1_Zeilen_Stumpf {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 26px;
+	float: left;
+	line-height: 26px;
+	margin-top: -2px;
+}
+.Klopstock_Initiale_2_Zeilen_groß {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 75px;
+	float: left;
+	margin-top: -12px;
+	margin-right: 5px;
+	line-height: 60px;
+}
+.Klopstock_Initiale_2_Zeilen {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 55px;
+	float: left;
+	margin-top: -8px;
+	margin-right: 5px;
+	line-height: 60px;
+}
+
+
+.Klopstock_ZZ_Ziffer {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;;
+	text-align: right;
+}
+
+.Klopstock_Apparat1 {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	color: #545150;
+}
+.Klopstock_ApparatLemmaziffer {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: right;
+	color: #545150;
+}
+
+.Klopstock_Sigle {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	margin-right: 15px;
+	color: #545150;
+}
+.Klopstock_Sigle_Sperrung {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	letter-spacing: 0.2em;
+	color: #545150;
+}
+.Klopstock_Literatur {
+	font-family: "Open Sans", Verdana, Sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	margin-right: 15px;
+	color: #545150;
+	text-indent: -30px;
+	margin-bottom: 6px;
+}
+
+html {
+  overflow-y: scroll;	/* Scrolleiste erzwingen */
+}
+
+abbr   {
+	cursor: pointer;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #545150;
+	color: #545150;
+}
+
+.Navigation_links {
+	position: fixed;
+	left: auto;
+}
+
+::selection {
+	background: #A29172; /* Safari */
+	color: #333;
+	}
+	
+::-moz-selection {
+	background: #A29172; /* Firefox */
+        color: #333;
+	}
+
+.Bild {
+	text-align: center;
+}
