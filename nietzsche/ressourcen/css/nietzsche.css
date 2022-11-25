@@ -1,30 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Noto+Sans&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,700;1,500&family=Noto+Sans:ital@0;1&display=swap");
 
 /* Text */
 
 .titel {
-  font-family: "Grenze Gotisch", sans-serif;
-  font-weight: bold;
+  font-family: "Libre Bodoni", serif;
   font-size: 2.5em;
   text-align: center;
-  line-height: 1em;
+  line-height: 1.5em;
   color: #e0d0b2;
   margin-left: 0;
 }
 
 .untertitel {
-  font-family: "Oswald", sans-serif;
+  font-family: "Libre Bodoni", serif;
   font-size: 1.5em;
   text-align: center;
   line-height: 1.5em;
-  /* color: #63200a; */
+  color: #e0d0b2;
   margin-left: 0;
 }
 
 .ueberschrift {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
+  font-family: "Libre Bodoni", serif;
+  font-size: 30px;
   text-align: left;
   line-height: 20px;
   color: #e0d0b2;
@@ -35,15 +33,61 @@
   font-family: "Noto Sans", sans-serif;
   font-size: 15px;
   text-align: left;
-  line-height: 20px;
+  line-height: 25px;
   color: #e0d0b2;
   margin-left: 0;
+}
+
+.text_indent {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  text-indent: 25px;
+  text-align: left;
+  line-height: 25px;
+  color: #e0d0b2;
+  margin-left: 0;
+}
+
+.kursiv {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  color: #e0d0b2;
+}
+
+.unterstreichung {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  color: #e0d0b2;
+  text-decoration-line: underline;
+}
+
+.unterstreichung_doppel {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  color: #e0d0b2;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+::selection {
+  background: rgba(113, 114, 175, 0.9);
+  color: #333;
+}
+
+.aligncenter {
+  text-align: center;
 }
 
 /* Rahmen */
 
 .square {
-  /* background-color: #ffcc99; */
   background-color: rgba(113, 114, 175, 0.9);
   width: 500px;
   height: auto;
@@ -54,8 +98,8 @@
   padding-right: 20px;
 }
 
-.square_transparent {
-  background-color: rgba(113, 114, 175, 0.9);
+.square_hidden {
+  /* background-color: rgba(113, 114, 175, 0.9); */
   width: 500px;
   height: auto;
   margin: 0 auto;
@@ -105,13 +149,14 @@ a[data-footnote]:hover:before {
   border-radius: 1px;
   width: 20em;
   font-size: 100%;
+  line-height: 20px;
 }
 
 /* Back to top */
 
 .back-to-top {
   position: fixed;
-  left: 50%;
+  left: 49%;
   bottom: 1rem;
   border-radius: 100%;
   background-color: rgba(113, 114, 175, 0.6);
