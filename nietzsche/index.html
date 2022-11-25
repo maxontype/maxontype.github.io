@@ -16,7 +16,7 @@
     </style>
   </head>
   <body>
-    <div class="square_0">
+    <div class="square_transparent" id="top_of_page">
       <p class="titel">
         Friedrich Nietzsche<br />
         Werth der Wahrheit
@@ -67,11 +67,11 @@
           data-footnote="[4]"
         ></a>
       </p>
-      <iframe
+      <!-- <iframe
         src="/nietzsche/ressourcen/images/nietzsche_tuep1.pdf"
         width="100%"
         height="500px"
-      ></iframe>
+      ></iframe> -->
       <p class="text">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br />
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna <br />
@@ -111,12 +111,13 @@
       />
     </div>
     <br />
-    <div class="square">
+    <div class="square_wide">
       <img
-        src="/nietzsche/ressourcen/images/nietzsche_heft_aufgeschlagen_klein.png"
+        src="/nietzsche/ressourcen/images/nietzsche_heft_aufgeschlagen_2.png"
         alt="Nietzsche Heft aufgeschlagen"
       />
     </div>
+    <br />
     <div class="square">
       <p class="text">
         Friedrich Nietzsche<br />
@@ -124,5 +125,24 @@
       </p>
       <p class="text">---</p>
     </div>
+
+    <a href="#top_of_page">
+      <button class="back-to-top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="back-to-top-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M7 11l5-5m0 0l5 5m-5-5v12"
+          />
+        </svg>
+      </button>
+    </a>
   </body>
 </html>
