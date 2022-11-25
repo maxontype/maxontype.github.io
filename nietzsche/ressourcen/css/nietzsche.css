@@ -1,81 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Noto+Sans&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Noto+Sans&family=Oswald&display=swap");
 
 .titel {
-    font-family: 'Grenze Gotisch', sans-serif;
-    font-weight: bold;
-	font-size: 2.5em;
-	text-align: center;
-	line-height: 1em;
-	color: #63200a;
-	margin-left: 0;
+  font-family: "Grenze Gotisch", sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1em;
+  /* color: #dd2d59; */
+  margin-left: 0;
 }
 
 .untertitel {
-    font-family: 'Oswald', sans-serif;
-	font-size: 1.5em;
-	text-align: center;
-    line-height: 1.5em;
-	color: #63200a;
-	margin-left: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+  /* color: #63200a; */
+  margin-left: 0;
 }
 
 .ueberschrift {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-	font-size: 15px;
-	text-align: left;
-    line-height: 20px;
-	color: #63200a;
-	margin-left: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  /* color: #63200a; */
+  margin-left: 0;
 }
 
 .text {
-    font-family: 'Noto Sans', sans-serif;
-	font-size: 15px;
-	text-align: left;
-	line-height: 20px;
-	color: #63200a;
-    margin-left: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 15px;
+  /* color: #63200a; */
+  margin-left: 0;
 }
 
 .square {
-    background-color: #f8cf98;
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  /* background-color: #f8cf98; */
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.square_0 {
+  /* background-color: #f8cf98; */
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 /* Fußnoten */
 
 a {
-    color: #882d0f;
-  }
+  color: #882d0f;
+}
 
-  a[data-footnote]:after {
-    content: attr(data-footnote);
-    /*vertical-align: super;*/
-    font-size: 100%;
-  }
-  
-  a[data-footnote] {
-    text-decoration: none;
-    position: relative;
-  }
-  
-  a[data-footnote]:hover:before {
-    content: attr(data-title);
-    display: inline;
-    padding: 0.5em;
-    background: rgba(50, 50, 50, 0.95);
-    color: #FFF;
-    position: absolute;
-    top: -90%;
-    left: 110%;
-    border-radius: 1px;
-    width: 20em;
-    font-size: 100%;
-  }
+a[data-footnote]:after {
+  content: attr(data-footnote);
+  /*vertical-align: super;*/
+  font-size: 100%;
+}
+
+a[data-footnote] {
+  text-decoration: none;
+  position: relative;
+}
+
+a[data-footnote]:hover:before {
+  content: attr(data-title);
+  display: inline;
+  padding: 0.5em;
+  background: rgba(50, 50, 50, 0.95);
+  color: #fff;
+  position: absolute;
+  top: -90%;
+  left: 110%;
+  border-radius: 1px;
+  width: 20em;
+  font-size: 100%;
+}
