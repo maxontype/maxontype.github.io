@@ -15,21 +15,45 @@
       }
     </style>
   </head>
+  <div id="scroll-to-top">
+    <p class="text">^</p>
+    <script>
+      var scrollToTopButton = document.getElementById("scroll-to-top");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      };
+
+      // When the user clicks on the button, scroll to the top of the document
+      scrollToTopButton.onclick = function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      };
+    </script>
+  </div>
   <body>
-    <div class="square" id="top_of_page">
+    <div class="square">
+      <p class="untertitel">
+        Genese einer Aufzeichnung aus<br />
+        <span style="font-style: italic">Der Wanderer und sein Schatten</span
+        ><br /><br />* * *
+      </p>
       <p class="titel">
         Friedrich Nietzsche<br />
-        <span style="font-style: italic">Werth der Wahrheit</span>
+        »Werth der Wahrheit«
       </p>
       <p class="untertitel">
         * * *<br /><br />
-        Genese einer Aufzeichnung aus<br />
-        <span style="font-style: italic">Der Wanderer und sein Schatten</span
-        ><br /><br />
-        * *<br /><br />
         Mit einer Vorbemerkung von<br />
-        Maximilian José Kramer<br /><br />
-        *
+        Maximilian José Kramer<br />
       </p>
     </div>
     <br />
@@ -256,23 +280,5 @@
         erscheint«.26
       </p>
     </div>
-    <a href="#top_of_page">
-      <button class="back-to-top">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="back-to-top-icon"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M7 11l5-5m0 0l5 5m-5-5v12"
-          />
-        </svg>
-      </button>
-    </a>
   </body>
 </html>

@@ -89,11 +89,13 @@
 
 .square {
   background-color: rgba(113, 114, 175, 0.9);
+  /* position: relative; */
+  /* float: center; */
   width: 500px;
   height: auto;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -103,8 +105,8 @@
   width: 500px;
   height: auto;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -114,8 +116,8 @@
   width: 1000px;
   height: auto;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -152,31 +154,21 @@ a[data-footnote]:hover:before {
   line-height: 20px;
 }
 
-/* Back to top */
-
-.back-to-top {
+#scroll-to-top {
   position: fixed;
-  left: 49%;
-  bottom: 1rem;
-  border-radius: 100%;
-  background-color: rgba(113, 114, 175, 0.6);
-  padding: 0.5rem;
-  border: none;
+  bottom: 10px;
+  right: 30px;
+  display: none;
   cursor: pointer;
-  opacity: 100%;
-  transition: opacity 0.5s;
-}
-
-.back-to-top:hover {
-  opacity: 60%;
-}
-
-.hidden {
-  opacity: 0%;
-}
-
-.back-to-top-icon {
-  width: 1rem;
-  height: 1rem;
+  /* background-color: rgba(113, 114, 175, 0.6); */
+  background-color: rgba(113, 114, 175, 0.9);
   color: #e0d0b2;
+  /* padding: 5px; */
+  /* border-radius: 5px; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#scroll-to-top:hover {
+  opacity: 60%;
 }
